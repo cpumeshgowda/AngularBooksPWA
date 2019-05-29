@@ -20,6 +20,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { DetailsComponent } from './details/details.component';
+import { CompanyListComponent } from './company/company-list/company-list.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { DetailsComponent } from './details/details.component';
     HomeComponent,
     SearchComponent,
     DetailsComponent,
+    CompanyListComponent,
   ],
   imports: [
     BrowserModule,
