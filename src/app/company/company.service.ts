@@ -14,7 +14,7 @@ export class CompanyService {
     this.loadCompanies();
   }
 
-  API_BASE = 'http://firebootcamp-crm-api.azurewebsites.net/api';
+  API_BASE = 'https://firebootcamp-crm-api.azurewebsites.net/api';
 
   loadCompanies() {
     this.httpclient.get<Company[]>(`${this.API_BASE}/company`)
