@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/583aa374-7acd-42f4-bf63-1a3e9cb6d1dd/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/AngularBooksPWA",
+    "appService.deploySubpath": ""
+}
